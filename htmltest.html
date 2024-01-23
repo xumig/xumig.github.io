@@ -2,24 +2,25 @@
 <html lang="zh-CN">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta content="yes" name="apple-touch-fullscreen" />
-  <meta content="yes" name="apple-mobile-web-app-capable" />
-  <meta charset="UTF-8" />
-  <!-- <meta name="referer" content="never" /> -->
-  <meta name="referrer" content="no-referrer" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="renderer" content="webkit" />
-  <!-- <link rel="manifest" href="./pwa/manifest.json" /> -->
-  <meta name="theme-color" content="#000000" />
-  <meta name="msapplication-TileColor" content="#000000" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-  <meta name="apple-mobile-web-app-title" content="{{app_name}}" />
-  <meta name="format-detection" content=”telephone=no” />
-  <meta name="full_screen" content="yes">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
-  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta charset="UTF-8"/>
+    <meta content="yes" name="apple-touch-fullscreen"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta charset="UTF-8"/>
+    <!-- <meta name="referer" content="never" /> -->
+    <meta name="referrer" content="no-referrer"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="renderer" content="webkit"/>
+    <!-- <link rel="manifest" href="./pwa/manifest.json" /> -->
+    <meta name="theme-color" content="#000000"/>
+    <meta name="msapplication-TileColor" content="#000000"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+    <meta name="apple-mobile-web-app-title" content="{{app_name}}"/>
+    <meta name="format-detection" content=”telephone=no”/>
+    <meta name="full_screen" content="yes">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
 </head>
 <script>
   !(function (x) { 
@@ -52,15 +53,6 @@
                 window.android.systemShare('哈哈哈哈https://www.google.com')
         }
 
-        document.getElementById('onRegister').onclick = ()=>{
-                window.android.onRegister('friebasekey','user_id');
-        }
-        document.getElementById('onBind').onclick = ()=>{
-                window.android.onBind('friebasekey','user_id');
-        }
-        document.getElementById('onPurchase').onclick = ()=>{
-                window.android.onPurchase('recharge_1','user_id');
-        }
         document.getElementById('getAdId').onclick = ()=>{
                 let a = window.android.getAdId()
                 document.getElementById('txt').innerText = a
@@ -77,26 +69,40 @@
                 document.getElementById('txt').innerText = a
         }
 
+
+         document.getElementById('onRegister').onclick = ()=>{
+                window?.android?.postEvent('guestlogin', '哈哈哈哈');
+        }
+        document.getElementById('onBind').onclick = ()=>{
+               window?.android?.postEvent('CompleteRegistration','哈哈哈哈');
+        }
+        document.getElementById('onPurchase').onclick = ()=>{
+               window?.android?.postEvent('Purchase', `{"value":${100}, "currency":"${USD}"}`);
+        }
+
+
     }  
   })(window)
+
 </script>
 
 <body style="position: absolute;margin: 44px 0 0;width: 100%; height: 100%; overflow: scroll; display: flex; flex-direction: row; align-content: flex-start; justify-content: space-evenly; flex-wrap: wrap;">
-        <a href="galigame://">url打开咖喱皮app</a>
-        <a href="hhtpgame://">url打开清凉皮app</a>
-    <div id="abb" class="btn">横屏</div>
-    <div id="abc" class="btn">竖屏</div>
-    <div id="abd" class="btn">openUrl</div>
-    <div id="uuid" class="btn">uuid</div>
-    <div id="systemShare" class="btn">systemShare</div>
-    <div id="onRegister" class="btn">onRegister</div>
-    <div id="onBind" class="btn">onBind</div>
-    <div id="onPurchase" class="btn">onPurchase</div>
-    <div id="getAdId" class="btn">getAdId</div>
-    <div id="pkg" class="btn">pkgName</div>
-    <div id="album" class="btn">相册</div>>
-    <div id="paste" class="btn">剪切板</div>
-    <div id="txt"></div>
+<a href="galigame://">url打开咖喱皮app</a>
+<a href="hhtpgame://">url打开清凉皮app</a>
+<div id="abb" class="btn">横屏</div>
+<div id="abc" class="btn">竖屏</div>
+<div id="abd" class="btn">openUrl</div>
+<div id="uuid" class="btn">uuid</div>
+<div id="systemShare" class="btn">systemShare</div>
+<div id="onRegister" class="btn">onRegister</div>
+<div id="onBind" class="btn">onBind</div>
+<div id="onPurchase" class="btn">onPurchase</div>
+<div id="getAdId" class="btn">getAdId</div>
+<div id="pkg" class="btn">pkgName</div>
+<div id="album" class="btn">相册</div>
+>
+<div id="paste" class="btn">剪切板</div>
+<div id="txt"></div>
 </body>
 <style>
      .btn{  
@@ -113,5 +119,6 @@
             margin-top: 20px;
         }
     
+
 </style>
 </html>
