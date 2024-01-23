@@ -50,7 +50,9 @@
                 document.getElementById('txt').innerText = a
         }
         document.getElementById('systemShare').onclick = ()=>{
-                window.android.systemShare('哈哈哈哈https://www.google.com')
+               // window.android.systemShare('哈哈哈哈https://www.google.com')
+
+            android.postMessage('video')
         }
 
         document.getElementById('getAdId').onclick = ()=>{
