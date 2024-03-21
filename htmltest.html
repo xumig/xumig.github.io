@@ -37,9 +37,11 @@
         
         document.getElementById('abb').onclick = ()=>{
                 window.android.setNativeOrientation(1)
+                    flutter.postMessage({"funName":"setNativeOrientation","value":"1","currency":""});   
         }
         document.getElementById('abc').onclick = ()=>{
                 window.android.setNativeOrientation(3)
+            flutter.postMessage({"funName":"setNativeOrientation","value":"3","currency":""}); 
         }
         document.getElementById('abd').onclick = ()=>{
                 window.android.openUrlByDefaultBrowser('https://www.google.com')
