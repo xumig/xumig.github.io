@@ -1,0 +1,702 @@
+[
+  {
+    "name": "肉丸",
+    "hunger": 62.5,
+    "sanity": 5,
+    "health": 3,
+    "duration": 10,
+    "recipe": "肉+3冰/果（小肉限果）",
+    "description": "饱食神奇，成本低廉"
+  },
+  {
+    "name": "培根煎蛋",
+    "hunger": 75,
+    "sanity": 5,
+    "health": 20,
+    "duration": 20,
+    "recipe": "1.5肉度+蛋+蛋",
+    "description": "长度必备，数值优秀"
+  },
+  {
+    "name": "波兰水饺",
+    "hunger": 37.5,
+    "sanity": 5,
+    "health": 40,
+    "duration": 20,
+    "recipe": "肉+0.5菜+蛋+冰/果",
+    "description": "长途必备，回血神器"
+  },
+  {
+    "name": "蜜汁火腿",
+    "hunger": 75,
+    "sanity": 5,
+    "health": 30,
+    "duration": 15,
+    "recipe": "2肉度+蜜（无枝）",
+    "description": "数值优秀，有蜂蜜后可用来回血"
+  },
+  {
+    "name": "蜜汁卤肉",
+    "hunger": 37.5,
+    "sanity": 5,
+    "health": 20,
+    "duration": 15,
+    "recipe": "1.5及以下肉度+蜜（无枝）",
+    "description": "数值良好，有蜂蜜后可用来回血"
+  },
+  {
+    "name": "炖肉汤",
+    "hunger": 150,
+    "sanity": 5,
+    "health": 12,
+    "duration": 10,
+    "recipe": "3肉度（无枝）",
+    "description": "饱食大补，注意溢出，成本较高"
+  },
+  {
+    "name": "火鸡大餐",
+    "hunger": 75,
+    "sanity": 5,
+    "health": 20,
+    "duration": 6,
+    "recipe": "鸡腿+鸡腿+肉+0.5菜/果",
+    "description": "成本较高"
+  },
+  {
+    "name": "肉串",
+    "hunger": 37.5,
+    "sanity": 5,
+    "health": 3,
+    "duration": 15,
+    "recipe": "肉+枝+冰/果+冰/果"
+  },
+  {
+    "name": "炖兔子",
+    "hunger": 37.5,
+    "sanity": 5,
+    "health": 20,
+    "duration": 10,
+    "recipe": "0.5及以下肉度+3冰"
+  },
+  {
+    "name": "蛙腿三明治",
+    "hunger": 37.5,
+    "sanity": 5,
+    "health": 20,
+    "duration": 10,
+    "recipe": "蛙腿+0.5菜+枝+枝"
+  },
+  {
+    "name": "爆炒填辣椒馅",
+    "hunger": 25,
+    "sanity": -5,
+    "health": 30,
+    "duration": 15,
+    "recipe": "1.5及以下肉度+辣椒+冰/果"
+  },
+  {
+    "name": "辣椒炖肉",
+    "hunger": 37.5,
+    "sanity": 0,
+    "health": 20,
+    "duration": 10,
+    "recipe": "1.5肉度+1.5菜度"
+  },
+  {
+    "name": "鳄梨酱",
+    "hunger": 37.5,
+    "sanity": 0,
+    "health": 20,
+    "duration": 10,
+    "recipe": "鼹鼠+仙人掌/石果+枝+枝",
+    "description": "黑暗料理，一般用来换宠物"
+  },
+  {
+    "name": "怪物千层饼",
+    "hunger": 37.5,
+    "sanity": -20,
+    "health": -20,
+    "duration": 6,
+    "recipe": "2怪物肉/榴莲",
+    "description": "怪物肉又放多啦？"
+  },
+  {
+    "name": "海鲜牛排",
+    "hunger": 37.5,
+    "sanity": 33,
+    "health": 60,
+    "duration": 10,
+    "recipe": "1.5鱼度+2.5肉度（无冰）",
+    "description": "数值优秀"
+  },
+  {
+    "name": "炸鱼排",
+    "hunger": 37.5,
+    "sanity": 5,
+    "health": 40,
+    "duration": 10,
+    "recipe": "1鱼+枝+冰/果+冰/果",
+    "description": "回血神器"
+  },
+  {
+    "name": "海鲜浓汤",
+    "hunger": 37.5,
+    "sanity": 20,
+    "health": 40,
+    "duration": 10,
+    "recipe": "2.25鱼度",
+    "description": "联机制作必须用鳗鱼调肉度"
+  },
+  {
+    "name": "加州卷",
+    "hunger": 37.5,
+    "sanity": 10,
+    "health": 20,
+    "duration": 10,
+    "recipe": "海带+海带+1鱼度"
+  },
+  {
+    "name": "鱼肉玉米卷",
+    "hunger": 37.5,
+    "sanity": 5,
+    "health": 20,
+    "duration": 6,
+    "recipe": "1鱼+玉米+枝+枝",
+    "description": "被炸鱼排完爆"
+  },
+  {
+    "name": "酸橘汁腌鱼",
+    "hunger": 25,
+    "sanity": 5,
+    "health": 20,
+    "duration": 10,
+    "recipe": "2鱼度+冰+冰/果"
+  },
+  {
+    "name": "鳗鱼料理",
+    "hunger": 18.75,
+    "sanity": 5,
+    "health": 20,
+    "duration": 10,
+    "recipe": "鳗鱼+苔藓/海带+枝+枝",
+    "description": "废物"
+  },
+  {
+    "name": "龙虾正餐",
+    "hunger": 37.5,
+    "sanity": 50,
+    "health": 60,
+    "duration": 15,
+    "recipe": "龙虾+黄油+枝+枝",
+    "description": "黄油难得"
+  },
+  {
+    "name": "龙虾汤",
+    "hunger": 25,
+    "sanity": 10,
+    "health": 60,
+    "duration": 10,
+    "recipe": "龙虾+冰+枝+枝",
+    "description": "回血神器"
+  },
+  {
+    "name": "藤壶握寿司",
+    "hunger": 37.5,
+    "sanity": 5,
+    "health": 40,
+    "duration": 10,
+    "recipe": "藤壶+海带+蛋+枝"
+  },
+  {
+    "name": "藤壶中细面",
+    "hunger": 75,
+    "sanity": 20,
+    "health": 10,
+    "duration": 6,
+    "recipe": "藤壶+藤壶+菜+菜"
+  },
+  {
+    "name": "酿鱼头",
+    "hunger": 75,
+    "sanity": 0,
+    "health": 20,
+    "duration": 3,
+    "recipe": "藤壶+1鱼度+枝"
+  },
+  {
+    "name": "藤壶皮塔饼",
+    "hunger": 37.5,
+    "sanity": 5,
+    "health": 20,
+    "duration": 15,
+    "recipe": "藤壶+菜+枝+枝"
+  },
+  {
+    "name": "苏格兰高鸟蛋",
+    "hunger": 150,
+    "sanity": 5,
+    "health": 60,
+    "duration": 15,
+    "recipe": "高鸟蛋+菜+枝+枝",
+    "description": "偷蛋有风险"
+  },{
+    "name": "早餐铁锅",
+    "hunger": 37.5,
+    "sanity": 5,
+    "health": 20,
+    "duration": 20,
+    "recipe": "蛋+菜+枝+枝",
+    "description": "数值均衡，成本较低"
+  },
+  {
+    "name": "普通煎蛋",
+    "hunger": 50,
+    "sanity": 5,
+    "health": 3,
+    "duration": 10,
+    "recipe": "蛋+蛋+蛋+枝"
+  },
+  {
+    "name": "牛肉绿叶菜",
+    "hunger": 75,
+    "sanity": 5,
+    "health": 40,
+    "duration": 6,
+    "recipe": "叶肉+菜+菜+菜",
+    "description": "数值优秀，叶肉有些难刷"
+  },
+  {
+    "name": "果冻沙拉",
+    "hunger": 37.5,
+    "sanity": 50,
+    "health": 0,
+    "duration": 6,
+    "recipe": "叶肉+叶肉+蜜+蜜",
+    "description": "回san大神器"
+  },
+  {
+    "name": "素食堡",
+    "hunger": 37.5,
+    "sanity": 33,
+    "health": 30,
+    "duration": 6,
+    "recipe": "叶肉+洋葱+菜+菜"
+  },
+  {
+    "name": "叶肉糕",
+    "hunger": 37.5,
+    "sanity": 5,
+    "health": 8,
+    "duration": 20,
+    "recipe": "叶肉+叶肉+枝+枝",
+    "description": "浪费叶肉"
+  },
+  {
+    "name": "奶油土豆泥",
+    "hunger": 37.5,
+    "sanity": 33,
+    "health": 20,
+    "duration": 15,
+    "recipe": "土豆+土豆+蒜+冰/果",
+    "description": "回san神器"
+  },
+  {
+    "name": "薯塔",
+    "hunger": 37.5,
+    "sanity": 15,
+    "health": 3,
+    "duration": 10,
+    "recipe": "土豆+枝+枝+冰/果",
+    "description": "成本低廉"
+  },
+  {
+    "name": "生鲜萨尔萨酱",
+    "hunger": 25,
+    "sanity": 33,
+    "health": 3,
+    "duration": 15,
+    "recipe": "番茄+洋葱+冰/果+冰/果",
+    "description": "回san神器"
+  },
+  {
+    "name": "蔬菜鸡尾酒",
+    "hunger": 25,
+    "sanity": 33,
+    "health": 3,
+    "duration": 15,
+    "recipe": "番茄/芦笋+冰+另1.5菜度",
+    "description": "回san神器"
+  },
+  {
+    "name": "蝴蝶松饼",
+    "hunger": 37.5,
+    "sanity": 5,
+    "health": 20,
+    "duration": 15,
+    "recipe": "蝴蝶+0.5菜+枝+枝",
+    "description": "属性均衡，成本低廉"
+  },
+  {
+    "name": "花沙拉",
+    "hunger": 12.5,
+    "sanity": 5,
+    "health": 40,
+    "duration": 6,
+    "recipe": "仙人掌花+0.5菜+菜+冰",
+    "description": "夏季回血不错"
+  },
+  {
+    "name": "南瓜饼",
+    "hunger": 37.5,
+    "sanity": 15,
+    "health": 3,
+    "duration": 10,
+    "recipe": "南瓜+蜜+蜜+枝",
+    "description": "以往用来回san，时代的眼泪"
+  },
+  {
+    "name": "华夫饼",
+    "hunger": 37.5,
+    "sanity": 5,
+    "health": 60,
+    "duration": 6,
+    "recipe": "黄油+蛋+果+枝",
+    "description": "黄油难得"
+  },
+  {
+    "name": "蔬菜杂烩",
+    "hunger": 25,
+    "sanity": 5,
+    "health": 3,
+    "duration": 15,
+    "recipe": "0.5菜+3冰/果",
+    "description": "通常不如直接吃原料"
+  },
+  {
+    "name": "酿茄子",
+    "hunger": 37.5,
+    "sanity": 5,
+    "health": 3,
+    "duration": 15,
+    "recipe": "茄子+0.5菜+枝+枝",
+    "description": "不如直接吃原料"
+  },
+  {
+    "name": "曼德拉菜汤",
+    "hunger": 150,
+    "sanity": 5,
+    "health": 100,
+    "duration": 6,
+    "recipe": "曼德拉草+枝+枝+枝",
+    "description": "过于浪费"
+  },
+  {
+    "name": "芦笋汤",
+    "hunger": 18.75,
+    "sanity": 5,
+    "health": 20,
+    "duration": 15,
+    "recipe": "芦笋+菜+0.5菜+果",
+    "description": "废物"
+  },
+  {
+    "name": "火龙果派",
+    "hunger": 75,
+    "sanity": 5,
+    "health": 40,
+    "duration": 15,
+    "recipe": "火龙果+枝+枝+枝",
+    "description": "饥荒第一果由此而来"
+  },
+  {
+    "name": "西瓜冰",
+    "hunger": 12.5,
+    "sanity": 20,
+    "health": 3,
+    "duration": 3,
+    "recipe": "西瓜+冰+枝+枝",
+    "description": "回san能力尚可"
+  },
+  {
+    "name": "什锦干果",
+    "hunger": 12.5,
+    "sanity": 5,
+    "health": 30,
+    "duration": 15,
+    "recipe": "桦树种+果+果+枝",
+    "description": "早期回血用"
+  },
+  {
+    "name": "水果圣代",
+    "hunger": 25,
+    "sanity": 5,
+    "health": 20,
+    "duration": 6,
+    "recipe": "3果度+枝",
+    "description": "废物"
+  },
+  {
+    "name": "果酱",
+    "hunger": 37.5,
+    "sanity": 5,
+    "health": 3,
+    "duration": 15,
+    "recipe": "果+3果/冰",
+    "description": "建议加肉做肉丸"
+  },
+  {
+    "name": "香蕉冻",
+    "hunger": 12.5,
+    "sanity": 33,
+    "health": 20,
+    "duration": 3,
+    "recipe": "香蕉+冰+枝+枝",
+    "description": "回san神器"
+  },
+  {
+    "name": "香蕉奶昔（糖）",
+    "hunger": 25,
+    "sanity": 33,
+    "health": 30,
+    "duration": 15,
+    "recipe": "香蕉+香蕉+枝+枝",
+    "description": "回san神器"
+  },
+  {
+    "name": "冰香蕉冻唇膏",
+    "hunger": 18.75,
+    "sanity": 15,
+    "health": 30,
+    "duration": 15,
+    "recipe": "香蕉+冰+2冰/果",
+    "description": "数值较平均"
+  },
+  {
+    "name": "无花果酿树干",
+    "hunger": 56,
+    "sanity": 0,
+    "health": 60,
+    "duration": 10,
+    "recipe": "无花果+象鼻+枝+枝"
+  },
+  {
+    "name": "无花果意面（素）",
+    "hunger": 56.25,
+    "sanity": 15,
+    "health": 30,
+    "duration": 15,
+    "recipe": "无花果+菜+菜+枝"
+  },
+  {
+    "name": "无花果烤串",
+    "hunger": 25,
+    "sanity": 15,
+    "health": 20,
+    "duration": 15,
+    "recipe": "无花果+1肉度+枝"
+  },
+  {
+    "name": "无花果蛙腿三明治",
+    "hunger": 18.75,
+    "sanity": 10,
+    "health": 8,
+    "duration": 15,
+    "recipe": "无花果+蛙腿+枝+枝"
+  },
+  {
+    "name": "舒缓茶",
+    "hunger": 0,
+    "sanity": 45,
+    "health": 3,
+    "duration": 3,
+    "recipe": "必忘我+蜂蜜+冰+冰",
+    "description": "回san大神器，食用后持续回san"
+  },
+  {
+    "name": "糖豆",
+    "hunger": 0,
+    "sanity": 5,
+    "health": 122,
+    "duration": "无限",
+    "recipe": "蜂王浆+3冰/果",
+    "description": "回血大神器，食用后持续回血"
+  },
+  {
+    "name": "冰淇凌",
+    "hunger": 25,
+    "sanity": 50,
+    "health": 0,
+    "duration": 3,
+    "recipe": "羊奶/黄油+冰+蜜+冰",
+    "description": "回san大神器，成本较高"
+  },
+  {
+    "name": "太妃糖",
+    "hunger": 25,
+    "sanity": 15,
+    "health": -3,
+    "duration": 15,
+    "recipe": "蜜+蜜+蜜+枝",
+    "description": "以往用来回san，时代的眼泪"
+  },
+  {
+    "name": "蘑菇蛋糕（糖）",
+    "hunger": 25,
+    "sanity": 10,
+    "health": 0,
+    "duration": 15,
+    "recipe": "四种生蘑菇各一",
+    "description": "用来抵御睡眠"
+  },
+  {
+    "name": "芝士蛋糕（素）",
+    "hunger": 0,
+    "sanity": 0,
+    "health": -3,
+    "duration": 18750,
+    "recipe": "玉米+蜜+枝+枝",
+    "description": "用来勾引生物或大厨调味料载体"
+  },
+  {
+    "name": "琥珀美食",
+    "hunger": 12.5,
+    "sanity": 0,
+    "health": 0,
+    "recipe": "尘土块+枝+枝+枝",
+    "description": "喂档案馆尘蛾"
+  },
+  {
+    "name": "皮弗娄牛零食",
+    "hunger": 25,
+    "sanity": 0,
+    "health": 75,
+    "duration": 20,
+    "recipe": "必忘我+桦树种子+枝+枝",
+    "description": "喂牛吃的"
+  },
+  {
+    "name": "蒸树枝",
+    "hunger": 100,
+    "sanity": 0,
+    "health": 15,
+    "duration": 20,
+    "recipe": "枝+枝+枝+枝",
+    "description": "喂牛吃的"
+  },
+  {
+    "name": "牛奶帽",
+    "hunger": 3.9,
+    "sanity": 0,
+    "health": 0,
+    "recipe": "裸露鼻孔+海带+羊奶/黄油+枝",
+    "description": "用耐久回复饱食得帽子"
+  },
+  {
+    "name": "失败料理",
+    "hunger": 0,
+    "sanity": 0,
+    "health": 0,
+    "duration": 6,
+    "recipe": "一切无效食谱",
+    "description": "下次请注意参考本表！"
+  },
+  {
+    "name": "骨头汤",
+    "hunger": 150,
+    "sanity": 5,
+    "health": 32,
+    "duration": 10,
+    "recipe": "骨片+骨片+洋葱+冰/果",
+    "description": "属性优秀，戏称萌新/前辈汤"
+  },
+  {
+    "name": "鱼汤",
+    "hunger": 112.5,
+    "sanity": 33,
+    "health": 60,
+    "duration": 8,
+    "recipe": "鱼+洋葱+番茄+冰/果",
+    "description": "属性优秀"
+  },
+  {
+    "name": "鲜果煎饼",
+    "hunger": 150,
+    "sanity": 15,
+    "health": 60,
+    "duration": 10,
+    "recipe": "黄油+蜜+1.5果度",
+    "description": "黄油难得"
+  },
+  {
+    "name": "芦笋冷汤",
+    "hunger": 25,
+    "sanity": 10,
+    "health": 3,
+    "duration": 15,
+    "recipe": "芦笋+芦笋+冰+冰",
+    "description": "5分钟不过热"
+  },
+  {
+    "name": "辣龙椒沙拉",
+    "hunger": 25,
+    "sanity": 10,
+    "health": -3,
+    "duration": 15,
+    "recipe": "火龙果+辣椒+冰/果+冰/果",
+    "description": "5分钟不过冷"
+  },
+  {
+    "name": "蓝带鱼排",
+    "hunger": 37.5,
+    "sanity": -10,
+    "health": 20,
+    "duration": 8,
+    "recipe": "蛙腿+蛙腿+1鱼度",
+    "description": "湿度为0，保持5分钟"
+  },
+  {
+    "name": "伏特羊肉冻",
+    "hunger": 37.5,
+    "sanity": 10,
+    "health": 3,
+    "duration": 10,
+    "recipe": "伏特羊角+蜜+蜜+冰/果",
+    "description": "5分钟内附加电击伤害"
+  },
+  {
+    "name": "发光慕斯",
+    "hunger": 37.5,
+    "sanity": 10,
+    "health": 3,
+    "duration": 8,
+    "recipe": "1发光大浆果（2小）+1果度",
+    "description": "2天内发光，亮度递减"
+  },
+  {
+    "name": "恐怖国王饼",
+    "hunger": 25,
+    "sanity": 5,
+    "health": 1,
+    "duration": 10,
+    "recipe": "2噩梦燃料+洋葱+土豆",
+    "description": "san和血量互换，不会暴毙"
+  },
+  {
+    "name": "土豆酥",
+    "hunger": 37.5,
+    "sanity": 15,
+    "health": 20,
+    "duration": 10,
+    "recipe": "土豆+土豆+蛋+冰/果",
+    "description": "过于平庸，不配专属"
+  },
+  {
+    "name": "怪物鞑靼",
+    "hunger": 62.5,
+    "sanity": -20,
+    "health": -20,
+    "duration": 10,
+    "recipe": "2怪物肉/榴莲",
+    "description": "废物"
+  }
+]
